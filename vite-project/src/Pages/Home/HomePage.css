@@ -1,0 +1,606 @@
+
+
+/* Hero Section css Here... */
+/* Hero Section */
+.heroSection {
+  background-image: url('/src/assets/Image/hero/hero-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Left Image */
+.heroimage {
+  position: relative;
+}
+
+.heroimage img {
+  width: 95%;
+}
+
+/* Price Badge */
+.inerimage {
+  position: absolute;
+  top: -44px;
+  left: 63%;
+}
+
+.inerimage img {
+  width: 100%;
+}
+
+.inerimage .price {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.inerimage .price h3 {
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Right Content */
+.herorightcontent {
+  font-family: var(--font-roboto);
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+.herorightcontent h1 {
+  font-size: 92px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.herorightcontent h4 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.herorightcontent p {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.herorightcontent .fullbtn {
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+/* Hero Section Responsive  css Here... */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+ .heroSection {
+    height: 83vh;
+}
+.herorightcontent h1 {
+    font-size: 64px;
+    margin-bottom:5px;
+}
+.herorightcontent h4 {
+    font-size: 32px;
+   
+}
+.heroimage img {
+    width: 110%;
+    margin-top: 24px;
+}
+
+.inerimage {
+   
+    top: -44px;
+    left: 62%;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+.heroSection {
+    height: auto;
+    padding: 120px 0 100px 0;
+}
+
+.herorightcontent {
+ text-align: center;
+}
+.herorightcontent h1 {
+    font-size: 64px;
+    margin-bottom: 0px;
+}
+.herorightcontent h4 {
+    font-size: 28px;
+}
+}
+
+@media (max-width: 575px) {
+
+.heroSection {
+    height: auto;
+    padding: 121px 0 100px 0;
+}
+.heroimage img {
+    width: 85%;
+}
+.inerimage {
+    position: absolute;
+    top: -19px;
+    left: 54%;
+}
+.herorightcontent {
+    padding-left: 0;
+}
+.herorightcontent h1 {
+    font-size: 36px;
+}
+.herorightcontent h4 {
+    font-size: 24;
+}
+}
+
+
+
+/* About Section Css */
+
+section.about-section {
+  padding: 100px 0 300px 0;
+  width: 100%;
+  background: url('../../assets/Image/AboutPage/about-1.jpg') no-repeat center center / cover;
+}
+
+.about-section-content {
+  color: var(--black-color);
+  text-align: center;
+  font-family: var(--font-roboto);
+  text-transform:uppercase ;
+}
+.about-section-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.about-section-content p {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+section.about-section-wraper {
+     padding-top: 70px;
+  padding-bottom: 30px;
+    background: var(--yellow-color);
+    color: white;
+}
+.cardImage img {
+    width: 60px;
+    margin-bottom: 27px;
+}
+
+/* About Section Responsive css here........... */
+@media (min-width: 768px) and (max-width: 1023px){
+.about-section-content h1 {
+    font-size: 32px;
+}
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+  .about-section-content h1 {
+    font-size: 28px;
+}
+}
+
+
+
+
+/* Item Section Css Code Here.................. */
+section.itemList-section {
+    padding: 100px 0;
+}
+
+.itemtop h2 {
+    color: var(--red-color);
+    font-weight: bolder;
+    font-size: 52px;
+}
+.itemtop p {
+   font-weight: 600;
+}
+
+.itemList {
+    /* border: 1px solid black; */
+    box-shadow: var(--box-shadow);
+  overflow: hidden;
+}
+
+.itemimg{
+ 
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+}
+.itemimg img{
+   object-fit: cover;
+  overflow: hidden;
+   transition: transform 0.3s ease;
+}
+
+.itemList:hover .itemimg img{
+  transform: scale(1.1);
+}
+
+.itemcontent{
+  padding: 24px 13px;
+}
+
+.itemRW span {
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.itemcontent {
+font-family: var(--font-bangla);
+}
+.itemcontent h5 {
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+.itemPC .allbtn{
+  padding: 10px 30px;
+}
+
+p.para {
+    font-weight: 500;
+}
+
+section.itemList-section .ads_box {
+  text-align: right;
+  padding: 80px 35px 50px;
+  border-radius: 6px;
+}
+section.itemList-section .ads_img1 {
+  background: url("../../assets/Image/menu/ads-1.jpg") no-repeat center center;
+  background-size: cover;
+}
+section.itemList-section .ads_img2 {
+  background: url("../../assets/Image/menu/ads-2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* Item Section Responsive Css Code Here.................. */
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+  section.itemList-section .ads_box {
+    padding: 75px 8px 37px;
+    
+}
+section.itemList-section .ads_box {
+    padding: 43px 35px 32px;
+
+}
+ 
+}
+
+@media (max-width: 575px) {
+  section.itemList-section {
+    padding: 60px 0;
+}
+.itemtop h2 {
+    font-size: 32px;
+}
+}
+
+
+/* Promotion Section CSS Start here............... */
+
+.promotion_section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--light-grey);
+  font-family: var(--font-roboto);
+}
+ .promotion_section h2 {
+    font-size: 39px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+ .promotion_section h2 {
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+.promotion_section ul {
+  list-style-type: disc;
+   padding-left: 15px;
+}
+ .promotion_section ul li {
+  list-style: circle;
+    font-weight: 700;
+    margin-bottom: 13px;
+    color: var(--black-color);
+}
+ .promotion_section ul li::marker {
+    color: red;
+} 
+
+.bg_parallax_scroll {
+  background: url("../../assets/Image/parallax/bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 700px;
+}
+
+/* Promotion Section Responsive CSS Start here............... */
+@media (min-width: 768px) and (max-width: 1023px){
+  section.promotion_section img {
+    width: 80%;
+}
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+  .promotion_section img{
+    width: 80%;
+  }
+  .px-5 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+ 
+}
+
+@media (max-width: 575px) {
+.px-5 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+}
+
+
+
+/* Brands Section CSS Start here............... */
+
+
+
+/* Promotion Part  */
+.brand-promotion-section{
+  padding: 100px 0 0 0;
+  font-family: var(--font-bangla);
+  background-color: var(--yellow-color);
+}
+.brand-promotion-section .brand-promotion-left h3 {
+    font-size: 28px;
+}
+.brand-promotion-section .brand-promotion-left h1 {
+    font-size: 72px;
+    font-weight: bolder;
+}
+.brand-promotion-section .brand-promotion-left p{font-weight: 600;}
+.brand-promotion-section .brand-promotion-left .promotion-left-image {
+    display: flex;
+    gap: 42px;
+    margin-right: 25px;
+}
+
+
+/* Brand Hightligt Part  (Slider) React BootStrap Slider */
+.carousel.slide .carousel-inner {
+  overflow: unset;
+}
+.carousel.slide .carousel-inner .carousel-caption {
+  position: relative;
+  right: unset;
+  left: unset;
+}
+
+/* Brand Section responsive Css Here....... */
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .brand-promotion-section {
+    padding: 70px 0 0 0;
+}
+  .brand-promotion-section .brand-promotion-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.brand-promotion-section .brand-promotion-left .promotion-left-image {
+    display: flex;
+    gap: 20px;
+    margin-right: 25px;
+}
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+  .brand-promotion-section {
+    padding: 70px 0 0 0;
+}
+  .brand-promotion-section .brand-promotion-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.brand-promotion-section .brand-promotion-left .promotion-left-image {
+    display: flex;
+    gap: 20px;
+    margin-right: 25px;
+}
+.brand-promotion-section .brand-promotion-left h1 {
+    font-size: 31px;
+    font-weight: bolder;
+}
+ .brand-promotion-section .brand-promotion-left h3 {
+    font-size: 20px;
+}
+
+}
+
+@media (max-width: 575px) {
+.brand-promotion-left {
+    margin-bottom: 44px;
+}
+.brand-promotion-section .brand-promotion-left h3 {
+    font-size: 24px;
+}
+.brand-promotion-section .brand-promotion-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.brand-promotion-section .brand-promotion-left .promotion-left-image {
+
+    gap: 20px;
+}
+}
+
+/* userFeedback_section Css Here........ */
+.userFeedback_section{
+  padding: 80px 0 50px;
+  background: url("../../assets//Image/BlogPage/reviews.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.userFeedback_section .user_img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-bottom: 25px;
+}
+.userFeedback_section .carousel.slide .carousel-inner .carousel-caption p {
+  font-size: 1.7rem;
+  line-height: 1.45;
+  font-weight: 400;
+  padding: 0 12%;
+  margin-bottom: 25px;
+}
+.userFeedback_section .carousel.slide .carousel-inner .carousel-caption .item_rating i {
+  color: var(--yellow);
+  margin-right: 5px;
+}
+.userFeedback_section .carousel.slide .carousel-inner .carousel-caption h5 {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/*userFeedback_sectionResponsive Css Here........ */ 
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+
+ 
+}
+
+@media (max-width: 575px) {
+
+}
+
+/* Contact Section CSs Here */
+
+.contact_section {
+  background: url("../assets/footer/banner-1.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact_section h4 {
+  font-size: 2.375rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.contact_section h2 {
+  font-size: 4.5rem;
+  margin-bottom: 25px;
+}
+.contact_section p {
+  width: 70%;
+  margin: 0 auto 30px;
+}
+.contact_section a {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+
+/* Contact Section Responsive CSs Here */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+
+ 
+}
+
+@media (max-width: 575px) {
+
+}
+
+
+
+/* Blog Section Css Here...... */
+
+
+
+.blogSection {
+    padding: 0 100px 104px;
+}
+.blogSection .blogtitle h1 {
+    font-weight: 700;
+    font-family: var(--font-bangla);
+}
+
+.blogSection .blogData {
+    box-shadow: var(--box-shadow);
+    padding: 10px 20px;
+}
+.blogSection .blogData .img img {
+    width: 100%;
+    height: 223px;
+    transition: var(--transition)
+}
+.blogSection .blogData .blogMeta {
+    margin: 10px 0;
+    font-weight: 600;
+}
+.blogData h2{
+  font-size: 22px;
+  font-family: var(--font-bangla);
+  font-weight: 700;
+}
+.blogData p{
+  font-weight: 600;
+}
+
+.blogData .blogbtn{
+  font-size: 18px;
+  font-weight: 600;
+  
+}
+.blogData .blogbtn:hover{
+  letter-spacing: 2px;
+  text-decoration: underline;
+ transition: var(--transition);
+ color: var(--red-color);
+
+}
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+
+ 
+}
+
+@media (max-width: 575px) {
+
+}

@@ -1,0 +1,73 @@
+
+
+/* Import Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+ul,ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+:root{
+    --font-bangla:  'Anek Bangla', sans-serif;
+    --font-roboto:  'Roboto', sans-serif;
+
+
+    --red-color: #dc3545;
+    --black-color:#000;
+    --yellow-color:#f7be27;
+    --box-shadow:-2px 0 10px rgba(0,0,0,0.1);
+    --transition: 0.3s ease;
+    --light-grey: #f6f9fa;
+    --light-grey-2: #dddddd;
+
+}
+
+.allbtn{
+    background: #dc3545;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-family: var(--font-bangla);
+    color: white;
+    transition: var(--transition);
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+ 
+.allbtn:hover{
+    background: #bb2d3b;
+    color: white;
+    transition: var(--transition);
+} 
+ 
+.fullbtn{
+      background: #dc3545;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-family: var(--font-bangla);
+    color: white;
+    transition: var(--transition);
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-weight: 700;
+    text-decoration: none;
+}
+ 
+.fullbtn:hover{
+    background: #bb2d3b;
+    transition: var(--transition);
+}
+ 

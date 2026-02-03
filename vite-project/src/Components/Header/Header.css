@@ -1,0 +1,114 @@
+.main-header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 12px 0;
+  font-family: var(--font-bangla);
+}
+
+/* Logo */
+.header-logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #dc3545;
+  text-decoration: none;
+}
+.header-logo a img {
+  width: 70px;
+}
+
+.header-logo span {
+  color: #000;
+}
+
+/* Desktop Menu */
+.header-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.header-menu li {
+    display: inline-block;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #333;
+    margin: 0;
+    padding: 0px 17px;
+    font-weight: 600;
+}
+.header-menu li a.active {
+  color: #dc3545;
+  font-weight: 700;
+}
+
+/* Toggle Button */
+.menu-toggle-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 280px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: 0.3s ease;
+  z-index: 1000;
+}
+.mobile-menu h4{
+     font-size: 24px;
+  font-weight: bold;
+  color: #dc3545;
+}
+.mobile-menu h4 span{
+    color: #000;
+}
+.mobile-menu.open {
+  right: 0;
+}
+
+.mobile-menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+}
+
+/* Mobile Menu List */
+.mobile-menu-list {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.mobile-menu-list li {
+  margin-bottom: 15px;
+}
+
+.mobile-menu-list li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+/* Mobile Buttons */
+.mobile-menu-buttons .btn {
+  font-size: 16px;
+}
